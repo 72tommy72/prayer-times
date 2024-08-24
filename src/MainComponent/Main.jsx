@@ -141,7 +141,7 @@
                         <Divider></Divider>
                         {/* Pictures */}
                         <div className="row py-3  d-flex justify-content-around ms-auto me-auto inner-card">
-                            <div className="col-md-2  ">
+                            <div className="col-md-2 py-2 ">
                                 <div className="card">
                                     <img
                                         src="./night-prayer-mosque.png"
@@ -154,7 +154,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-2">
+                            <div className="col-md-2 py-2">
                                 <div className="card">
                                     <img
                                         src="./sunset-prayer-mosque.png"
@@ -168,7 +168,7 @@
                                 </div>
                             </div>
 
-                            <div className="col-md-2">
+                            <div className="col-md-2 py-2 ">
                                 <div className="card">
                                     <img
                                         src="./asr-prayer-mosque.png"
@@ -181,7 +181,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-2">
+                            <div className="col-md-2 py-2">
                                 <div className="card">
                                     <img
                                         src="./dhhr-prayer-mosque.png"
@@ -195,7 +195,7 @@
                                 </div>
                             </div>
 
-                            <div className="col-md-2 ">
+                            <div className="col-md-2 py-2">
                                 <div className="card">
                                     <img
                                         src="./fajr-prayer.png"
@@ -213,7 +213,7 @@
                         <Divider></Divider>
 
                         <div className="row pt-3  d-flex justify-content-around ms-auto me-auto inner-card ">
-                            <div className="col-md-4 my-2">
+                            <div className="col-md-4  ">
                                 <select
                                     className="form-select form-select-sm my-4"
                                     aria-label=".form-select-sm example"
