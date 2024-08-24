@@ -213,7 +213,7 @@
                         <Divider></Divider>
 
                         <div className="row pt-3  d-flex justify-content-around ms-auto me-auto inner-card ">
-                            <div className="col-md-4 ">
+                            <div className="col-md-4 my-2">
                                 <select
                                     className="form-select form-select-sm my-4"
                                     aria-label=".form-select-sm example"
