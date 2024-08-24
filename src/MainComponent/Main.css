@@ -18,11 +18,10 @@ html {
     font-family: "IBM Plex Sans Arabic", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-header {
     background-color: #29231C;
 }
+
+header {}
 
 .row {
     margin-left: 0px!important;

@@ -122,93 +122,6 @@
             <>
                 <header className=" text-center ">
                     <div className="container- vh-100 text-center ">
-                        <div className="row my-4 py-3 text-white d-flex justify-content-around ms-auto me-auto inner-card">
-                            <div className="col-md-5 my-2 ">
-                                <div className="py-4 t-right border border-2 border-solid border-white">
-                                    <p>
-                                        متبقى حتى صلاة {prayerList[nextPrayer].displayName + " "}
-                                    </p>
-                                    <h2>{remaningTime}</h2>
-                                </div>
-                            </div>
-                            <div className="col-md-5  my-2">
-                                <div className="py-4 t-left border border-2 border-solid border-white ">
-                                    <h2>{selectedCity}</h2>
-                                    <p>{today}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <Divider></Divider>
-                        {/* Pictures */}
-                        <div className="row py-3  d-flex justify-content-around ms-auto me-auto inner-card">
-                            <div className="col-md-2 py-2 ">
-                                <div className="card">
-                                    <img
-                                        src="./night-prayer-mosque.png"
-                                        className="inner-img w-100"
-                                        alt=""
-                                    />
-                                    <div className="card-body">
-                                        <h2>العشاء</h2>
-                                        <p>{aladanApi.Isha}</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-2 py-2">
-                                <div className="card">
-                                    <img
-                                        src="./sunset-prayer-mosque.png"
-                                        className="inner-img w-100"
-                                        alt=""
-                                    />
-                                    <div className="card-body">
-                                        <h2>المغرب</h2>
-                                        <p>{aladanApi.Maghrib}</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-md-2 py-2 ">
-                                <div className="card">
-                                    <img
-                                        src="./asr-prayer-mosque.png"
-                                        className="inner-img w-100"
-                                        alt=""
-                                    />
-                                    <div className="card-body">
-                                        <h2>العصر</h2>
-                                        <p>{aladanApi.Asr}</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-2 py-2">
-                                <div className="card">
-                                    <img
-                                        src="./dhhr-prayer-mosque.png"
-                                        className="card-img-top"
-                                        alt="..."
-                                    />
-                                    <div className="card-body">
-                                        <h2>الظهر</h2>
-                                        <p>{aladanApi.Dhuhr} </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-md-2 py-2">
-                                <div className="card">
-                                    <img
-                                        src="./fajr-prayer.png"
-                                        className="card-img-top"
-                                        alt="..."
-                                    />
-                                    <div className="card-body">
-                                        <h2>الفجر</h2>
-                                        <p>{aladanApi.Fajr}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         {/* select */}
                         <Divider></Divider>
 
@@ -244,7 +157,7 @@
                                     Show{" "}
                                 </button> */}
                             </div>
-                            <div className="col-md-4 offset-">
+                            <div className="col-md-4 ">
                                 <select
                                     className="form-select form-select-sm my-4"
                                     aria-label=".form-select-sm example"
@@ -475,6 +388,95 @@
                                 </button> */}
                             </div>
                         </div>
+                        <div className="row my-4 py-3 text-white d-flex justify-content-around ms-auto me-auto inner-card">
+                            <div className="col-md-5 my-2 ">
+                                <div className="py-4 t-right border border-2 border-solid border-white">
+                                    <p>
+                                        متبقى حتى صلاة {prayerList[nextPrayer].displayName + " "}
+                                    </p>
+                                    <h2>{remaningTime}</h2>
+                                </div>
+                            </div>
+                            <div className="col-md-5  my-2">
+                                <div className="py-4 t-left border border-2 border-solid border-white ">
+                                    <h2>{selectedCity}</h2>
+                                    <p>{today}</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <Divider></Divider>
+                        {/* Pictures */}
+                        <div className="row py-3  d-flex justify-content-around ms-auto me-auto inner-card">
+                            <div className="col-md-2 py-2 ">
+                                <div className="card">
+                                    <img
+                                        src="./night-prayer-mosque.png"
+                                        className="inner-img w-100"
+                                        alt=""
+                                    />
+                                    <div className="card-body">
+                                        <h2>العشاء</h2>
+                                        <p>{aladanApi.Isha}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-2 py-2">
+                                <div className="card">
+                                    <img
+                                        src="./sunset-prayer-mosque.png"
+                                        className="inner-img w-100"
+                                        alt=""
+                                    />
+                                    <div className="card-body">
+                                        <h2>المغرب</h2>
+                                        <p>{aladanApi.Maghrib}</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-md-2 py-2 ">
+                                <div className="card">
+                                    <img
+                                        src="./asr-prayer-mosque.png"
+                                        className="inner-img w-100"
+                                        alt=""
+                                    />
+                                    <div className="card-body">
+                                        <h2>العصر</h2>
+                                        <p>{aladanApi.Asr}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-2 py-2">
+                                <div className="card">
+                                    <img
+                                        src="./dhhr-prayer-mosque.png"
+                                        className="card-img-top"
+                                        alt="..."
+                                    />
+                                    <div className="card-body">
+                                        <h2>الظهر</h2>
+                                        <p>{aladanApi.Dhuhr} </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-md-2 py-2">
+                                <div className="card">
+                                    <img
+                                        src="./fajr-prayer.png"
+                                        className="card-img-top"
+                                        alt="..."
+                                    />
+                                    <div className="card-body">
+                                        <h2>الفجر</h2>
+                                        <p>{aladanApi.Fajr}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </header>
             </>
