@@ -123,7 +123,7 @@
                 <header className=" text-center ">
                     <div className="container- vh-100 text-center ">
                         <div className="row my-4 py-3 text-white d-flex justify-content-around ms-auto me-auto inner-card">
-                            <div className="col-md-5  ">
+                            <div className="col-md-5 my-2 ">
                                 <div className="py-4 t-right border border-2 border-solid border-white">
                                     <p>
                                         متبقى حتى صلاة {prayerList[nextPrayer].displayName + " "}
@@ -131,7 +131,7 @@
                                     <h2>{remaningTime}</h2>
                                 </div>
                             </div>
-                            <div className="col-md-5 ">
+                            <div className="col-md-5  my-2">
                                 <div className="py-4 t-left border border-2 border-solid border-white ">
                                     <h2>{selectedCity}</h2>
                                     <p>{today}</p>
